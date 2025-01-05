@@ -1,6 +1,7 @@
 import 'package:ewaste/View/Add/Add.dart';
 import 'package:ewaste/View/Cart/CartScreen.dart';
 import 'package:ewaste/View/Fav/Fav.dart';
+import 'package:ewaste/View/Splash/Splash.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -77,13 +78,13 @@ class ProfileScreen extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () async {
                     await FirebaseAuth.instance.signOut();
-                    // Navigator.pushAndRemoveUntil(
-                    //   context,
-                    //   MaterialPageRoute(
-                    //     builder: (context) => SignInScreen(),
-                    //   ),
-                    //   (route) => false,
-                    // );
+                    Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SignInScreen(),
+                      ),
+                      (route) => false,
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.red,

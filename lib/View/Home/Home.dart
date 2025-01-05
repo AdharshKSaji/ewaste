@@ -6,8 +6,6 @@ import 'package:ewaste/View/Serach/Search.dart';
 import 'package:ewaste/model/ProductModel.dart';
 import 'package:flutter/material.dart';
 
-
-
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -169,30 +167,30 @@ class _HomeScreenState extends State<HomeScreen> {
                       );
                     }).toList(),
                   ),
-                 SizedBox(height: 20),
+                  SizedBox(height: 20),
 
-RichText(
-  text: TextSpan(
-    children: [
-      TextSpan(
-        text: "Big Sale ",
-        style: TextStyle(
-          fontSize: 25,
-          fontWeight: FontWeight.w800,
-          color: Colors.black, 
-        ),
-      ),
-      TextSpan(
-        text: "Flat 50% Off",
-        style: TextStyle(
-          fontSize: 25,
-          fontWeight: FontWeight.w800,
-          color: Colors.red, 
-        ),
-      ),
-    ],
-  ),
-),
+                  RichText(
+                    text: TextSpan(
+                      children: [
+                        TextSpan(
+                          text: "Big Sale ",
+                          style: TextStyle(
+                            fontSize: 25,
+                            fontWeight: FontWeight.w800,
+                            color: Colors.black, 
+                          ),
+                        ),
+                        TextSpan(
+                          text: "Flat 50% Off",
+                          style: TextStyle(
+                            fontSize: 25,
+                            fontWeight: FontWeight.w800,
+                            color: Colors.red, 
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                   SizedBox(height: 10),
                   SizedBox(
                     height: 150,
@@ -253,7 +251,6 @@ RichText(
                       return ProductCard(
                         product: ProductModel(
                           price: 0,
-                          
                           title: map['title'],
                           description: map['description'],
                           image: map['image'],

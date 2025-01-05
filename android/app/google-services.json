@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "838745022063",
-    "project_id": "e-waste-1",
-    "storage_bucket": "e-waste-1.appspot.com"
+    "project_number": "466561013206",
+    "project_id": "whitematrixmachinetest",
+    "storage_bucket": "whitematrixmachinetest.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:838745022063:android:6e968ce4d1d318f3ceb79a",
+        "mobilesdk_app_id": "1:466561013206:android:6494ffde2468bc4c484077",
         "android_client_info": {
-          "package_name": "com.example.app"
+          "package_name": "com.whitematrix.ma"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCm27_LPt87C_ioBgcAUjTFULKvYjXMjj0"
+          "current_key": "AIzaSyDZPWQaMLddJ8EFm2EzB8tO9D3mABI4c10"
         }
       ],
       "services": {
@@ -26,15 +26,34 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:838745022063:android:9a96cdb56a78fc32ceb79a",
+        "mobilesdk_app_id": "1:466561013206:android:959c721cfa7003f6484077",
         "android_client_info": {
-          "package_name": "com.intern.ewaste"
+          "package_name": "com.whitematrix.machinetest"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCm27_LPt87C_ioBgcAUjTFULKvYjXMjj0"
+          "current_key": "AIzaSyDZPWQaMLddJ8EFm2EzB8tO9D3mABI4c10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466561013206:android:5e8cb6e8a30a1a3b484077",
+        "android_client_info": {
+          "package_name": "com.whitematrixmachinetest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZPWQaMLddJ8EFm2EzB8tO9D3mABI4c10"
         }
       ],
       "services": {

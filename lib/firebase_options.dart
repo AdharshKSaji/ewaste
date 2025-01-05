@@ -4,16 +4,16 @@ import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
 
-// / Default [FirebaseOptions] for use with your Firebase apps.
-// /
-// / Example:
-// / ```dart
-// / import 'firebase_options.dart';
-// / // ...
-// / await Firebase.initializeApp(
-// /   options: DefaultFirebaseOptions.currentPlatform,
-// / );
-// / ```
+/// Default [FirebaseOptions] for use with your Firebase apps.
+///
+/// Example:
+/// ```dart
+/// import 'firebase_options.dart';
+/// // ...
+/// await Firebase.initializeApp(
+///   options: DefaultFirebaseOptions.currentPlatform,
+/// );
+/// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -41,47 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCpdWlZz8c6i58Ws7fADb6EeAz3Q53pfbk',
-    appId: '1:838745022063:web:c0fb49e1aaf1042fceb79a',
-    messagingSenderId: '838745022063',
-    projectId: 'e-waste-1',
-    authDomain: 'e-waste-1.firebaseapp.com',
-    storageBucket: 'e-waste-1.appspot.com',
+    apiKey: 'AIzaSyB7LHAwJUsSNLuHTIBblTCgWwSYRJk_McU',
+    appId: '1:466561013206:web:aa12f7af5734b7f0484077',
+    messagingSenderId: '466561013206',
+    projectId: 'whitematrixmachinetest',
+    authDomain: 'whitematrixmachinetest.firebaseapp.com',
+    storageBucket: 'whitematrixmachinetest.appspot.com',
+    measurementId: 'G-WMQ5647X2W',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCm27_LPt87C_ioBgcAUjTFULKvYjXMjj0',
-    appId: '1:838745022063:android:9a96cdb56a78fc32ceb79a',
-    messagingSenderId: '838745022063',
-    projectId: 'e-waste-1',
-    storageBucket: 'e-waste-1.appspot.com',
+    apiKey: 'AIzaSyDZPWQaMLddJ8EFm2EzB8tO9D3mABI4c10',
+    appId: '1:466561013206:android:959c721cfa7003f6484077',
+    messagingSenderId: '466561013206',
+    projectId: 'whitematrixmachinetest',
+    storageBucket: 'whitematrixmachinetest.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDtfQkGPKI3HFeGB6wIqWMHvh5yEQ49UeM',
-    appId: '1:838745022063:ios:77968bba84c6196fceb79a',
-    messagingSenderId: '838745022063',
-    projectId: 'e-waste-1',
-    storageBucket: 'e-waste-1.appspot.com',
-    iosBundleId: 'com.intern.ewaste',
+    apiKey: 'AIzaSyDmdGt1ff-aLSMSXUOwEjf4rPrODpAlxtg',
+    appId: '1:466561013206:ios:667ec2287bc92485484077',
+    messagingSenderId: '466561013206',
+    projectId: 'whitematrixmachinetest',
+    storageBucket: 'whitematrixmachinetest.appspot.com',
+    iosBundleId: 'com.whitematrix.machinetest',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDtfQkGPKI3HFeGB6wIqWMHvh5yEQ49UeM',
-    appId: '1:838745022063:ios:79ff8e42411d069aceb79a',
-    messagingSenderId: '838745022063',
-    projectId: 'e-waste-1',
-    storageBucket: 'e-waste-1.appspot.com',
-    iosBundleId: 'com.example.ewaste',
+    apiKey: 'AIzaSyDmdGt1ff-aLSMSXUOwEjf4rPrODpAlxtg',
+    appId: '1:466561013206:ios:e828922b925cbaca484077',
+    messagingSenderId: '466561013206',
+    projectId: 'whitematrixmachinetest',
+    storageBucket: 'whitematrixmachinetest.appspot.com',
+    iosBundleId: 'com.example.whiteMatrix',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCpdWlZz8c6i58Ws7fADb6EeAz3Q53pfbk',
-    appId: '1:838745022063:web:c817387e6756c96aceb79a',
-    messagingSenderId: '838745022063',
-    projectId: 'e-waste-1',
-    authDomain: 'e-waste-1.firebaseapp.com',
-    storageBucket: 'e-waste-1.appspot.com',
+    apiKey: 'AIzaSyB7LHAwJUsSNLuHTIBblTCgWwSYRJk_McU',
+    appId: '1:466561013206:web:0829e33f9f405d2d484077',
+    messagingSenderId: '466561013206',
+    projectId: 'whitematrixmachinetest',
+    authDomain: 'whitematrixmachinetest.firebaseapp.com',
+    storageBucket: 'whitematrixmachinetest.appspot.com',
+    measurementId: 'G-0ZHMT9YBE0',
   );
-
 }
